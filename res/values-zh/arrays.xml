@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="select_config_fitvideomode">
+		<item>50%</item>
+		<item>最佳缩放</item>
+		<item>填充至全屏</item>
+	</string-array>
+	<string-array name="select_config_playmode">
+		<item>依次播放文件列表文件</item>
+		<item>循环播放当前文件</item>
+		<item>播放完成时返回列表</item>
+	</string-array>
+	<string-array name="select_config_screendirection">
+		<item>横向</item>
+		<item>竖向</item>
+		<item>自动</item>
+	</string-array>
+	<string-array name="select_config_acquirethumbnail">
+		<item>自动获取缩略图</item>
+		<item>不获取缩略图</item>
+	</string-array>		
+</resources>

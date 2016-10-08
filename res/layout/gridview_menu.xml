@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/thd_PlayerCtrlBar">
+		  		
+      <com.jumplayer.LableView android:id="@+id/thd_mediainfotext" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:textColor="#FFFFFFFF"
+    	android:textSize="12dp"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+	  />
+		  		
+	<RelativeLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentBottom="true"
+	  android:background="#88414141">
+
+	 <SeekBar android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:id="@+id/thd_ctrl_bar_progress"
+			 android:max="100"
+			 android:layout_weight="16"
+			 android:progressDrawable="@drawable/movie_ctrlbar_progress"
+			 android:thumb="@drawable/movie_ctrlbar_progress_thumb"
+			 android:scrollbarSize="16dp"
+			 android:minHeight="4dp"
+			 android:maxHeight="4dp"
+			 android:paddingLeft="5dp"
+			 android:paddingRight="5dp"
+			 android:layout_toRightOf="@+id/curtime"
+			 android:layout_toLeftOf="@+id/alltime"
+			 android:layout_alignParentTop="true"
+	 />
+        <com.jumplayer.LableView android:id="@+id/curtime" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#FFFFFFFF"
+		android:singleLine="true"
+
+		android:layout_alignParentLeft="true"
+    	android:textSize="12dp"
+	  />
+        
+        <com.jumplayer.LableView android:id="@+id/alltime" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#FFFFFFFF"
+		android:singleLine="true"
+		
+		android:layout_alignParentRight="true"
+    	android:textSize="12dp"
+	  /> 
+         		  
+	<TableLayout 
+	android:id="@+id/thd_ctrl_bar"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@null"
+	android:layout_below="@+id/curtime"
+	android:layout_marginTop="4dp"
+	>
+		<TableRow>
+			<ImageButton
+			android:id="@+id/thd_ctrl_bar_backward"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			/>
+			<ImageButton
+			android:id="@+id/thd_ctrl_bar_playpause"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			/>
+			<ImageButton
+			android:id="@+id/thd_ctrl_bar_foreward"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			/>
+			<ImageButton
+			android:id="@+id/thd_ctrl_bar_viewpoint"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			/>
+			<ImageButton
+			android:id="@+id/thd_ctrl_bar_mediainfo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			/>
+		</TableRow>
+	</TableLayout>		    
+	</RelativeLayout>
+  
+</RelativeLayout>

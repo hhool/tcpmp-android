@@ -1,0 +1,552 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A90.bat" with contents
+[
+@echo off
+copy "..\lang\lang_std.txt" "\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\debug"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A90.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A91.bat" with contents
+[
+@echo off
+copy "..\lang\lang_en.txt" "\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\debug"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A91.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A92.bat" with contents
+[
+@echo off
+nasm -f win32 -o ".\Debug/x86.obj" .\cpu\x86.asm
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A92.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A93.bat" with contents
+[
+@echo off
+nasm -f win32 -o ".\Debug/mcomp_mmx.obj" .\softidct\mcomp_mmx.asm
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A93.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A94.bat" with contents
+[
+@echo off
+nasm -f win32 -o ".\Debug/mcomp4x4_mmx.obj" .\softidct\mcomp4x4_mmx.asm
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A94.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A95.bat" with contents
+[
+@echo off
+nasm -f win32 -o ".\Debug/idct_mmx.obj" .\softidct\idct_mmx.asm
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A95.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A96.bat" with contents
+[
+@echo off
+nasm -f win32 -o ".\Debug/blit_mmx.obj" .\blit\blit_mmx.asm
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A96.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A97.tmp" with contents
+[
+/nologo /MDd /Gm /GX /ZI /Od /D "_DEBUG" /D "ZLIB_DLL" /D "FASTEST" /D "BUILDFIXED" /D "DYNAMIC_CRC_TABLE" /D "NO_ERRNO_H" /D "MMX" /D "_USRDLL" /D "COMMON_EXPORTS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/common.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\advanced.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\audio.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\bitstrm.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\buffer.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\codec.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\color.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\context.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\equalizer.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\flow.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\format.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\format_base.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\format_subtitle.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\gzip.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\helper_base.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\helper_video.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\id3tag.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\idct.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\node.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\nulloutput.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\parser2.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\platform.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\player.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\playlist.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\probe.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\rawaudio.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\rawimage.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\str.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\streams.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\tchar.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\timer.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\tools.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\video.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\vlc.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\waveout.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\dyncode\dyncode.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\dyncode\dyncode_arm.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\dyncode\dyncode_mips.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\dyncode\dyncode_sh3.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\dyncode\dyncode_x86.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\association_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\context_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\dmo_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\file_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\mem_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\multithread_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\node_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\platform_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\str_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\waveout_win32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\association_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\context_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\dia.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\file_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\filedb_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\mem_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\native86.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\node_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\pace.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\platform_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\str_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\vfs_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\palmos\waveout_palmos.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\playlist\asx.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\playlist\m3u.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\playlist\pls.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_fix.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_gray.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_half.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_packed_yuv.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_rgb16.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_stretch.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_arm_yuv.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_mips_fix.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_mips_gray.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_sh3_fix.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_sh3_gray.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_soft.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\blit\blit_wmmx_fix.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\pcm\pcm_arm.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\pcm\pcm_mips.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\pcm\pcm_sh3.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\pcm\pcm_soft.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\block_c.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\block_half.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\block_mips64.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\block_mx1.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\block_wmmx.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\idct_c.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\idct_half.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\mcomp4x4_c.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\mcomp_c.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\mcomp_mips32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\mcomp_mips64.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\softidct\softidct.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\cpu\cpu.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\cpu\mips.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\adler32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\crc32.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\inffast.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\inflate.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\inftrees.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\uncompr.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\zlib\zutil.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_console.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_ddraw.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_ddrawce.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_direct.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_flytv.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_gapi.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_gdi.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_hires.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_raw.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_s1d13806.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\overlay\overlay_xscale.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\dumpoutput.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A97.tmp" 
+Performing Custom Build Step on ..\lang\lang_std.txt
+已复制         1 个文件。
+Performing Custom Build Step on ..\lang\lang_en.txt
+已复制         1 个文件。
+Performing Custom Build Step on .\cpu\x86.asm
+Performing Custom Build Step on .\softidct\mcomp_mmx.asm
+Performing Custom Build Step on .\softidct\mcomp4x4_mmx.asm
+Performing Custom Build Step on .\softidct\idct_mmx.asm
+Performing Custom Build Step on .\blit\blit_mmx.asm
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1057: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1058: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+.\blit\blit_mmx.asm:1059: warning: label alone on a line without a colon might be in error
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A98.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /dll /incremental:yes /pdb:"Debug/common.pdb" /debug /machine:I386 /out:"../debug/common.dll" /implib:"Debug/common.lib" /pdbtype:sept 
+".\Debug\advanced.obj"
+".\Debug\audio.obj"
+".\Debug\bitstrm.obj"
+".\Debug\buffer.obj"
+".\Debug\codec.obj"
+".\Debug\color.obj"
+".\Debug\context.obj"
+".\Debug\equalizer.obj"
+".\Debug\flow.obj"
+".\Debug\format.obj"
+".\Debug\format_base.obj"
+".\Debug\format_subtitle.obj"
+".\Debug\gzip.obj"
+".\Debug\helper_base.obj"
+".\Debug\helper_video.obj"
+".\Debug\id3tag.obj"
+".\Debug\idct.obj"
+".\Debug\node.obj"
+".\Debug\nulloutput.obj"
+".\Debug\overlay.obj"
+".\Debug\parser2.obj"
+".\Debug\platform.obj"
+".\Debug\player.obj"
+".\Debug\playlist.obj"
+".\Debug\probe.obj"
+".\Debug\rawaudio.obj"
+".\Debug\rawimage.obj"
+".\Debug\str.obj"
+".\Debug\streams.obj"
+".\Debug\tchar.obj"
+".\Debug\timer.obj"
+".\Debug\tools.obj"
+".\Debug\video.obj"
+".\Debug\vlc.obj"
+".\Debug\waveout.obj"
+".\Debug\dyncode.obj"
+".\Debug\dyncode_arm.obj"
+".\Debug\dyncode_mips.obj"
+".\Debug\dyncode_sh3.obj"
+".\Debug\dyncode_x86.obj"
+".\Debug\association_win32.obj"
+".\Debug\context_win32.obj"
+".\Debug\dmo_win32.obj"
+".\Debug\file_win32.obj"
+".\Debug\mem_win32.obj"
+".\Debug\multithread_win32.obj"
+".\Debug\node_win32.obj"
+".\Debug\platform_win32.obj"
+".\Debug\str_win32.obj"
+".\Debug\waveout_win32.obj"
+".\Debug\association_palmos.obj"
+".\Debug\context_palmos.obj"
+".\Debug\dia.obj"
+".\Debug\file_palmos.obj"
+".\Debug\filedb_palmos.obj"
+".\Debug\mem_palmos.obj"
+".\Debug\native86.obj"
+".\Debug\node_palmos.obj"
+".\Debug\pace.obj"
+".\Debug\platform_palmos.obj"
+".\Debug\str_palmos.obj"
+".\Debug\vfs_palmos.obj"
+".\Debug\waveout_palmos.obj"
+".\Debug\asx.obj"
+".\Debug\m3u.obj"
+".\Debug\pls.obj"
+".\Debug\blit_arm_fix.obj"
+".\Debug\blit_arm_gray.obj"
+".\Debug\blit_arm_half.obj"
+".\Debug\blit_arm_packed_yuv.obj"
+".\Debug\blit_arm_rgb16.obj"
+".\Debug\blit_arm_stretch.obj"
+".\Debug\blit_arm_yuv.obj"
+".\Debug\blit_mips_fix.obj"
+".\Debug\blit_mips_gray.obj"
+".\Debug\blit_sh3_fix.obj"
+".\Debug\blit_sh3_gray.obj"
+".\Debug\blit_soft.obj"
+".\Debug\blit_wmmx_fix.obj"
+".\Debug\pcm_arm.obj"
+".\Debug\pcm_mips.obj"
+".\Debug\pcm_sh3.obj"
+".\Debug\pcm_soft.obj"
+".\Debug\block_c.obj"
+".\Debug\block_half.obj"
+".\Debug\block_mips64.obj"
+".\Debug\block_mx1.obj"
+".\Debug\block_wmmx.obj"
+".\Debug\idct_c.obj"
+".\Debug\idct_half.obj"
+".\Debug\mcomp4x4_c.obj"
+".\Debug\mcomp_c.obj"
+".\Debug\mcomp_mips32.obj"
+".\Debug\mcomp_mips64.obj"
+".\Debug\softidct.obj"
+".\Debug\cpu.obj"
+".\Debug\mips.obj"
+".\Debug\adler32.obj"
+".\Debug\crc32.obj"
+".\Debug\inffast.obj"
+".\Debug\inflate.obj"
+".\Debug\inftrees.obj"
+".\Debug\uncompr.obj"
+".\Debug\zutil.obj"
+".\Debug\overlay_console.obj"
+".\Debug\overlay_ddraw.obj"
+".\Debug\overlay_ddrawce.obj"
+".\Debug\overlay_direct.obj"
+".\Debug\overlay_flytv.obj"
+".\Debug\overlay_gapi.obj"
+".\Debug\overlay_gdi.obj"
+".\Debug\overlay_hires.obj"
+".\Debug\overlay_raw.obj"
+".\Debug\overlay_s1d13806.obj"
+".\Debug\overlay_xscale.obj"
+".\Debug\blit_mmx.obj"
+".\Debug\idct_mmx.obj"
+".\Debug\mcomp4x4_mmx.obj"
+".\Debug\mcomp_mmx.obj"
+".\Debug\x86.obj"
+".\Debug\dumpoutput.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A98.tmp"
+<h3>Output Window</h3>
+Compiling...
+advanced.c
+audio.c
+bitstrm.c
+buffer.c
+codec.c
+color.c
+context.c
+equalizer.c
+flow.c
+format.c
+format_base.c
+format_subtitle.c
+gzip.c
+helper_base.c
+helper_video.c
+id3tag.c
+idct.c
+node.c
+nulloutput.c
+overlay.c
+parser2.c
+platform.c
+player.c
+playlist.c
+probe.c
+rawaudio.c
+rawimage.c
+str.c
+streams.c
+tchar.c
+timer.c
+tools.c
+video.c
+vlc.c
+waveout.c
+dyncode.c
+dyncode_arm.c
+dyncode_mips.c
+dyncode_sh3.c
+dyncode_x86.c
+association_win32.c
+context_win32.c
+dmo_win32.c
+file_win32.c
+mem_win32.c
+multithread_win32.c
+C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\win32\multithread_win32.c(116) : warning C4029: declared formal parameter list different from definition
+node_win32.c
+platform_win32.c
+str_win32.c
+waveout_win32.c
+association_palmos.c
+context_palmos.c
+dia.c
+file_palmos.c
+filedb_palmos.c
+mem_palmos.c
+native86.c
+node_palmos.c
+pace.c
+platform_palmos.c
+str_palmos.c
+vfs_palmos.c
+waveout_palmos.c
+asx.c
+m3u.c
+pls.c
+blit_arm_fix.c
+blit_arm_gray.c
+blit_arm_half.c
+blit_arm_packed_yuv.c
+blit_arm_rgb16.c
+blit_arm_stretch.c
+blit_arm_yuv.c
+blit_mips_fix.c
+blit_mips_gray.c
+blit_sh3_fix.c
+blit_sh3_gray.c
+blit_soft.c
+blit_wmmx_fix.c
+pcm_arm.c
+pcm_mips.c
+pcm_sh3.c
+pcm_soft.c
+block_c.c
+block_half.c
+block_mips64.c
+block_mx1.c
+block_wmmx.c
+idct_c.c
+idct_half.c
+mcomp4x4_c.c
+mcomp_c.c
+mcomp_mips32.c
+mcomp_mips64.c
+softidct.c
+cpu.c
+mips.c
+adler32.c
+crc32.c
+inffast.c
+inflate.c
+inftrees.c
+uncompr.c
+zutil.c
+overlay_console.c
+overlay_ddraw.c
+overlay_ddrawce.c
+overlay_direct.c
+overlay_flytv.c
+overlay_gapi.c
+overlay_gdi.c
+overlay_hires.c
+overlay_raw.c
+overlay_s1d13806.c
+overlay_xscale.c
+dumpoutput.c
+Linking...
+LINK : warning LNK4076: invalid incremental status file "../debug/common.ilk"; linking nonincrementally
+   Creating library Debug/common.lib and object Debug/common.exp
+<h3>
+--------------------Configuration: mpeg4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9C.tmp" with contents
+[
+/nologo /MDd /Gm /GX /ZI /Od /D "_DEBUG" /D "_USRDLL" /D "MPEG4_EXPORTS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/mpeg4.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\divx3_data.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\divx3_header.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\divx3_mblock.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\divx3_vlc.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\h263_header.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\h263_mblock.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\h263_vld.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_decode.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_header.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_mblock.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_mv.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_predict.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_stream.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_vld_h263.c"
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\mp4_vld_mpeg.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9D.tmp" with contents
+[
+/nologo /MDd /Gm /GX /ZI /Od /D "_DEBUG" /D "_USRDLL" /D "MPEG4_EXPORTS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/mpeg4.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\mpeg4\StdAfx.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/mpeg4.pdb" /debug /machine:I386 /out:"../debug/mpeg4.plg" /implib:"Debug/mpeg4.lib" /pdbtype:sept 
+".\Debug\divx3_data.obj"
+".\Debug\divx3_header.obj"
+".\Debug\divx3_mblock.obj"
+".\Debug\divx3_vlc.obj"
+".\Debug\h263_header.obj"
+".\Debug\h263_mblock.obj"
+".\Debug\h263_vld.obj"
+".\Debug\mp4_decode.obj"
+".\Debug\mp4_header.obj"
+".\Debug\mp4_mblock.obj"
+".\Debug\mp4_mv.obj"
+".\Debug\mp4_predict.obj"
+".\Debug\mp4_stream.obj"
+".\Debug\mp4_vld_h263.obj"
+".\Debug\mp4_vld_mpeg.obj"
+".\Debug\StdAfx.obj"
+"\android-ndk-1.6_r1-windows\apps\android-tcpmp\jni\common\Debug\common.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9E.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.c
+Compiling...
+divx3_data.c
+divx3_header.c
+divx3_mblock.c
+divx3_vlc.c
+h263_header.c
+h263_mblock.c
+h263_vld.c
+mp4_decode.c
+mp4_header.c
+mp4_mblock.c
+mp4_mv.c
+mp4_predict.c
+mp4_stream.c
+mp4_vld_h263.c
+mp4_vld_mpeg.c
+Linking...
+   Creating library Debug/mpeg4.lib and object Debug/mpeg4.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6AA2.tmp" with contents
+[
+/nologo /o"Debug/mpeg4.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\divx3_data.sbr"
+".\Debug\divx3_header.sbr"
+".\Debug\divx3_mblock.sbr"
+".\Debug\divx3_vlc.sbr"
+".\Debug\h263_header.sbr"
+".\Debug\h263_mblock.sbr"
+".\Debug\h263_vld.sbr"
+".\Debug\mp4_decode.sbr"
+".\Debug\mp4_header.sbr"
+".\Debug\mp4_mblock.sbr"
+".\Debug\mp4_mv.sbr"
+".\Debug\mp4_predict.sbr"
+".\Debug\mp4_stream.sbr"
+".\Debug\mp4_vld_h263.sbr"
+".\Debug\mp4_vld_mpeg.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6AA2.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+mpeg4.plg - 0 error(s), 23 warning(s)
+</pre>
+</body>
+</html>

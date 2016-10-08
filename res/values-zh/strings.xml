@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">JumPlayer</string>
+    <string name="curtime">00:00:00</string>
+    <string name="alltime">00:00:00</string>
+    
+    <!-- menu -->
+    <string name="menu_item_config">设置</string>
+    <string name="menu_item_filelist">文件列表</string>
+    <string name="menu_item_exit">退出</string>
+    
+    <!-- config list text -->
+    <string name="configlist_item_title">设置</string>
+    <string name="configlist_item_fitvideomode">视频填充模式</string>
+    <string name="configlist_item_playmode">视频播放模式</string>
+    <string name="configlist_item_screendirection">视频显示方向</string>
+    <string name="configlist_item_defaultpath">默认路径</string>
+    <string name="configlist_item_acquirethumbnail">获取缩略图</string>
+    <string name="configlist_item_defaultsettings">恢复默认设置</string>
+    <string name="configlist_item_about">关于</string>
+    <string name="configlist_item_aboutjump">关于JumPlayer</string>  
+    
+    <!-- dialog message -->
+    <string name="dialog_ok">确定</string>
+	<string name="dialog_cancel">取消</string>
+    
+    <string name="dlg_fitvideomode_title">视频填充模式</string>
+    
+    <string name="dlg_defaultpath_title">默认路径</string>
+    <string name="dlg_defaultpath_error">错误路径，请重新填写。</string>
+    
+    <string name="dlg_about_title">关于JumPlayer</string>
+	<string name="dlg_about_content">
+		JumPlayer\r\n\r\nFFmpeg(http://ffmpeg.org)\r\n\r\nTCPMP(http://picard.exceed.hu/tcpmp)
+	</string>
+	<string name="configlist_item_subcharset">字幕字符集</string>
+	<string name="thumbnail_exception">未能获得的略图，请检查SD卡</string>
+      
+</resources>

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/cygdrive/f/project/ffmpeg/ffmpeg.videolan/ffmpeg-0.7.4/android-tcpmp-ffmpeg-0-7-4-plugins/jni/ffmpeg-0.7.4
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 50.43.0
+Requires: 
+Conflicts:
+Libs: ${libdir}/libavutil.a -lm
+Cflags: -I${includedir}

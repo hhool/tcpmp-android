@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.jumplayer" android:installLocation="auto"
+      android:versionCode="18" android:versionName="1.0.3.1">
+    <application android:icon="@drawable/player_128" android:label="@string/app_name">
+        <activity android:name=".FileListActivity"
+                  android:label="@string/app_name" android:configChanges="keyboardHidden|orientation"
+                  android:launchMode="singleTask"
+                  >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConfigActivity"
+                  android:label="@string/app_name" android:configChanges="keyboardHidden|orientation"
+                  android:launchMode="singleTask"
+                  >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+		<activity 
+			android:name=".PlayerActivity" 
+			android:label="@string/app_name"
+			android:configChanges="keyboardHidden|orientation" 
+			android:launchMode="singleTask"
+            android:stateNotNeeded="false"
+            android:screenOrientation="unspecified"
+			>
+			<intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+                    <data android:mimeType="video/*" />
+             </intent-filter>
+             <intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+                    <data android:mimeType="audio/*" />
+             </intent-filter>
+             <intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+                    <data android:mimeType="image/*" />
+             </intent-filter>
+		</activity>
+		<activity 
+			android:name=".StartupActivity" 
+			android:label="@string/app_name"
+			android:configChanges="keyboardHidden|orientation" 
+			android:launchMode="singleTask"
+			>
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<!-- google_admob_sdk -->
+		<activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+    
+    <!-- AdMob SDK requires Internet permission -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest> 

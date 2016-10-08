@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="select_config_fitvideomode">
+		<item>50%</item>
+		<item>Fit Best</item>
+		<item>Fill Screen</item>
+	</string-array>
+	<string-array name="select_config_playmode">
+		<item>Play file in the list</item>
+		<item>Loop current file</item>
+		<item>Return list when finished</item>
+	</string-array>
+	<string-array name="select_config_screendirection">
+		<item>Horizontal</item>
+		<item>Vertical</item>
+		<item>Auto</item>
+	</string-array>
+	<string-array name="select_config_acquirethumbnail">
+		<item>Auto acquire thumbnail</item>
+		<item>Not acquire thumbnail</item>
+	</string-array>	
+</resources>

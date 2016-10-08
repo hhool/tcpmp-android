@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">JumPlayer</string>
+    <string name="curtime">00:00:00</string>
+    <string name="alltime">00:00:00</string>
+    
+    <!-- menu -->
+    <string name="menu_item_config">Setting</string>
+    <string name="menu_item_filelist">File List</string>
+    <string name="menu_item_exit">Exit</string>
+    
+    <!-- config list text -->
+    <string name="configlist_item_title">Setting</string>
+    <string name="configlist_item_fitvideomode">Zoom</string>
+    <string name="configlist_item_playmode">Play Mode</string>
+    <string name="configlist_item_screendirection">Video Display Direction</string>
+    <string name="configlist_item_defaultpath">Default Root Path</string>
+    <string name="configlist_item_acquirethumbnail">Acquire Thumbnail</string>
+    <string name="configlist_item_defaultsettings">Use Default Settings</string>
+    <string name="configlist_item_about">About</string>
+    <string name="configlist_item_aboutjump">About JumPlayer</string>  
+    
+    <!-- dialog message -->
+    <string name="dialog_ok">OK</string>
+	<string name="dialog_cancel">Cancel</string>
+    
+    <string name="dlg_fitvideomode_title">Zoom</string>
+    
+    <string name="dlg_defaultpath_title">Default Root Path</string>
+    <string name="dlg_defaultpath_error">Error path, please reinput.</string>
+    
+    <string name="dlg_about_title">About JumPlayer</string>
+	<string name="dlg_about_content">
+		JumPlayer\r\n\r\nFFmpeg(http://ffmpeg.org)\r\n\r\nTCPMP(http://picard.exceed.hu/tcpmp)
+	</string>
+	<string name="configlist_item_subcharset">Subtitle Charset</string>
+	<string name="thumbnail_exception">failed to get the thumnail,please check the sdcard</string>
+      
+</resources>

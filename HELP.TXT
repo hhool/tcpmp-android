@@ -1,0 +1,64 @@
+--login -c "cd /cygdrive/c/android-ndk-1.6_r1-windows && make APP=android-tcpmp V=1 -B"
+--login -c "cd /cygdrive/c/android-ndk-1.6_r1-windows && make APP=android-tcpmp"
+--login -c "cd /cygdrive/c/android-ndk-1.6_r1-windows/apps/android-tcpmp && $ndkr4b/ndk-build"
+
+android No implementation found for native
+
+adb push E:\music\hello.mp3 /sdcard/
+
+
+chmod 555 gdbserver 
+
+使用adb shell ps查询此应用的pid. 再将此pid attach到strace中， 使用 adb shell strace -p pid
+
+
+ 10.0.2.2是模拟器的默认ip地址，
+
+ emulator -avd android22 -partition-size 128
+ emulator -avd android16 -partition-size 128
+
+ $androidsdk/tools/android.bat update project --path ./
+
+调试步骤
+Administrator@MICROSOF-5A9E66 ~
+$ emulator -avd android22 -partition-size 128
+
+ Administrator@MICROSOF-5A9E66 /cygdrive/c/android-ndk-1.6_r1-windows/apps/android-tcpmp
+$ ./prepare
+
+$ndkr4b/ndk-gdb  3176
+
+info shared
+0x80b02238  0x80b115a0  No          /cygdrive/c/android-ndk-1.6_r1-windows/apps/
+android-tcpmp/obj/local/armeabi/libsplitter.so
+调试dlopen的动态库
+add-symbol-file /cygdrive/c/android-ndk-1.6_r1-windows/apps/android-tcpmp/obj/local/armeabi/libsplitter.so 0x80b02238
+
+b /cygdrive/c/android-ndk-1.6_r1-windows/apps/android-tcpmp/jni/splitter/stdafx.c:37
+
+Program terminated with signal SIGTRAP, Trace/breakpoint trap.
+
+repo init -u git://android.git.kernel.org/platform/manifest.git -b Froyo
+
+data/data/package
+data/app/*.apk
+
+tar -czvf language.tgz *.txt
+
+$ndkr4b/ndk-gdb 923
+
+bin 下
+javah -classpath ./ -jni com.android.thdplayer.object.THDPlayerCore
+
+签名
+1.key
+keytool -genkey -alias seamanplayer.keystore -keyalg RSA -validity 20000 -keystore seamanplayer.keystore
+2.sign
+jarsigner -verbose -keystore seamanplayer.keystore -signedjar SeamanPlayer_sign.apk  SeamanPlayer.apk seamanplayer.keystore
+3.align
+zipalign -v 4 SeamanPlayer_sign.apk SeamanPlayer_sign_align.apk
+zipalign -c -v 4 SeamanPlayer_sign_align.apk
+
+xml
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>

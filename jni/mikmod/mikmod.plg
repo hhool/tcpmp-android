@@ -1,0 +1,182 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mikmod - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP164.tmp" with contents
+[
+/nologo /MDd /Gm /GX /ZI /Od /I "libmikmod/include" /D "_DEBUG" /D "_USRDLL" /D "MIKMOD_EXPORTS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/mikmod.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\mikmod.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\stdafx.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\drivers\drv_nos.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_669.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_amf.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_asy.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_dsm.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_far.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_gdm.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_imf.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_it.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_m15.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_med.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_mod.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_mtm.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_okt.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_s3m.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_stm.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_stx.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_ult.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_uni.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\loaders\load_xm.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\mdriver.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\mloader.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\mlreg.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\mlutil.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\mmio\mmerror.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\mmio\mmio.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\mplayer.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\munitrk.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\mwav.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\npertab.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\sloader.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\virtch.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\virtch2.c"
+"G:\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\mikmod\libmikmod\playercode\virtch_common.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP164.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP165.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/mikmod.pdb" /debug /machine:I386 /out:"../debug/mikmod.plg" /implib:"Debug/mikmod.lib" /pdbtype:sept 
+.\Debug\mikmod.obj
+.\Debug\stdafx.obj
+.\Debug\drv_nos.obj
+.\Debug\load_669.obj
+.\Debug\load_amf.obj
+.\Debug\load_asy.obj
+.\Debug\load_dsm.obj
+.\Debug\load_far.obj
+.\Debug\load_gdm.obj
+.\Debug\load_imf.obj
+.\Debug\load_it.obj
+.\Debug\load_m15.obj
+.\Debug\load_med.obj
+.\Debug\load_mod.obj
+.\Debug\load_mtm.obj
+.\Debug\load_okt.obj
+.\Debug\load_s3m.obj
+.\Debug\load_stm.obj
+.\Debug\load_stx.obj
+.\Debug\load_ult.obj
+.\Debug\load_uni.obj
+.\Debug\load_xm.obj
+.\Debug\mdriver.obj
+.\Debug\mloader.obj
+.\Debug\mlreg.obj
+.\Debug\mlutil.obj
+.\Debug\mmerror.obj
+.\Debug\mmio.obj
+.\Debug\mplayer.obj
+.\Debug\munitrk.obj
+.\Debug\mwav.obj
+.\Debug\npertab.obj
+.\Debug\sloader.obj
+.\Debug\virtch.obj
+.\Debug\virtch2.obj
+.\Debug\virtch_common.obj
+\opensource\tcpmp\tcpmp.src.0.72RC1\tcpmp\common\Debug\common.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP165.tmp"
+<h3>Output Window</h3>
+Compiling...
+mikmod.c
+g:\opensource\tcpmp\tcpmp.src.0.72rc1\tcpmp\mikmod\mikmod.c(59) : warning C4087: 'MikMod_Exit' : declared with 'void' parameter list
+stdafx.c
+drv_nos.c
+load_669.c
+load_amf.c
+load_asy.c
+load_dsm.c
+load_far.c
+load_gdm.c
+load_imf.c
+load_it.c
+load_m15.c
+load_med.c
+load_mod.c
+load_mtm.c
+load_okt.c
+load_s3m.c
+load_stm.c
+load_stx.c
+load_ult.c
+load_uni.c
+load_xm.c
+mdriver.c
+mloader.c
+mlreg.c
+mlutil.c
+mmerror.c
+mmio.c
+mplayer.c
+munitrk.c
+mwav.c
+npertab.c
+sloader.c
+virtch.c
+virtch2.c
+virtch_common.c
+Linking...
+   Creating library Debug/mikmod.lib and object Debug/mikmod.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP169.tmp" with contents
+[
+/nologo /o"Debug/mikmod.bsc" 
+.\Debug\mikmod.sbr
+.\Debug\stdafx.sbr
+.\Debug\drv_nos.sbr
+.\Debug\load_669.sbr
+.\Debug\load_amf.sbr
+.\Debug\load_asy.sbr
+.\Debug\load_dsm.sbr
+.\Debug\load_far.sbr
+.\Debug\load_gdm.sbr
+.\Debug\load_imf.sbr
+.\Debug\load_it.sbr
+.\Debug\load_m15.sbr
+.\Debug\load_med.sbr
+.\Debug\load_mod.sbr
+.\Debug\load_mtm.sbr
+.\Debug\load_okt.sbr
+.\Debug\load_s3m.sbr
+.\Debug\load_stm.sbr
+.\Debug\load_stx.sbr
+.\Debug\load_ult.sbr
+.\Debug\load_uni.sbr
+.\Debug\load_xm.sbr
+.\Debug\mdriver.sbr
+.\Debug\mloader.sbr
+.\Debug\mlreg.sbr
+.\Debug\mlutil.sbr
+.\Debug\mmerror.sbr
+.\Debug\mmio.sbr
+.\Debug\mplayer.sbr
+.\Debug\munitrk.sbr
+.\Debug\mwav.sbr
+.\Debug\npertab.sbr
+.\Debug\sloader.sbr
+.\Debug\virtch.sbr
+.\Debug\virtch2.sbr
+.\Debug\virtch_common.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP169.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+mikmod.plg - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

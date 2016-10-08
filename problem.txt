@@ -1,0 +1,252 @@
+■2010.11.9
+	● 解决
+	● (1)暂时解决播放不流畅问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● 问题：
+	● (1)LOCAL_ARM_MODE := arm
+	● (2)配置文件打包问题
+	● (3)2.2视频渲染适配
+	● 任务：
+	● 其他解码模块移植测试
+■2010.11.10
+	● 解决
+	● (1)暂时解决播放不流畅问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● (3)配置文件打包问题
+	● (4)2.2视频渲染适配
+	● 问题：
+	● (1)LOCAL_ARM_MODE := arm
+	● (2)输出图像旋转成功一半，主要存在旋转后存在旋转前的视频输出图像。
+	● 任务：
+	● 其他解码模块移植测试
+■2010.11.11
+	● 解决
+	● (1)解决播放不流畅问题和暂停后再次播放卡问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● G5(2.2.1)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● (3)配置文件打包问题
+	● (4)2.2视频渲染适配
+	● 问题：
+	● (1)LOCAL_ARM_MODE := arm
+	● (2)输出图像旋转成功一半，主要存在旋转后存在旋转前的视频输出图像。
+	● 任务：
+	● 其他解码模块移植测试
+■2010.11.12
+	● 解决
+	● 部分片源音频输出在G1输出无问题，G5杂音 已经解决。（系统差别造成的2.0系统声道mask值改变）
+	● (1)解决播放不流畅问题和暂停后再次播放卡问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● G5(2.2.1)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● (3)配置文件打包问题
+	● (4)2.2视频渲染适配
+	● 问题：
+	● (1)LOCAL_ARM_MODE := arm
+	● (2)输出图像旋转成功一半，主要存在旋转后存在旋转前的视频输出图像。
+	● 任务：
+	● 其他解码模块移植测试
+■2010.11.13
+	● 解决
+	● 输出图像旋转成功一半，主要存在旋转后存在旋转前的视频输出图像。
+	● LOCAL_ARM_MODE := arm
+	● 部分片源音频输出在G1输出无问题，G5杂音 已经解决。（系统差别造成的2.0系统声道mask值改变）
+	● (1)解决播放不流畅问题和暂停后再次播放卡问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● G5(2.2.1)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● (3)配置文件打包问题
+	● (4)2.2视频渲染适配
+	● 问题：
+	● 任务：
+	● 汇编优化
+	● 其他解码模块移植测试
+■2010.11.15
+	● 解决
+	● mpeg4 解码花屏bug，
+	● mkv 分离不支持EMBL 1版本协议的bug
+	● 输出图像旋转成功一半，主要存在旋转后存在旋转前的视频输出图像。
+	● LOCAL_ARM_MODE := arm
+	● 部分片源音频输出在G1输出无问题，G5杂音 已经解决。（系统差别造成的2.0系统声道mask值改变）
+	● (1)解决播放不流畅问题和暂停后再次播放卡问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● G5(2.2.1)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● (3)配置文件打包问题
+	● (4)2.2视频渲染适配
+	● 问题：
+	● 任务：
+	● 注册表功能
+	● 汇编优化
+	● 其他解码模块移植测试
+■2010.11.20
+	● 解决
+	● mpeg4 解码花屏bug，
+	● mkv 分离不支持EMBL 1版本协议的bug
+	● 输出图像旋转成功一半，主要存在旋转后存在旋转前的视频输出图像。
+	● LOCAL_ARM_MODE := arm
+	● 部分片源音频输出在G1输出无问题，G5杂音 已经解决。（系统差别造成的2.0系统声道mask值改变）
+	● (1)解决播放不流畅问题和暂停后再次播放卡问题，主要由于音频流更改系统时钟造成的，测试机器G1(android 1.6)
+	● G5(2.2.1)
+	● (2)jni/jni 针对不同android平台编译的mk文件
+	● (3)配置文件打包问题
+	● (4)2.2视频渲染适配
+	● 问题：
+	● 部分mov文件seek后同步有问题，轮训播放播放完毕再次启动也存在同样问题。卡
+	● 部分avi文件常按住屏幕卡
+	● 任务：
+	● 注册表功能
+	● 汇编优化
+	● 其他解码模块移植测试
+
+■2011.1.24
+	● flv中加入对NELLYMOSER,SPEEX解码支持，对于单纯的flv音频小文件存在问题.swf音频无codec
+	● 添加AAC+ codec
+		
+■2011.1.26
+	●tag:161显示适配，成功解决moto机器存在问题OverlaySuface_Init()在Context_Init调用OverlaySuface_Done()在Context_Done调用
+	●with调试信息
+	●问题：
+	●moto有时转屏后没有图像
+■2011.2.12
+	解决
+	1.aac,aac+（ffmpeg)
+	2.cook codec
+	3.rm cook
+	4.rm atrc
+	5.mkv cook
+	6.flv flashsv
+	7.flv h264
+	8.flv NELLYMOSER
+	9.flv AAC
+	10.flv SPEEX
+	问题
+	1.flv FLV_CODECID_ADPCM swf audio ， NELLYMOSER SPEEX
+	2.rm splitter index seek
+	3.land_std.txt eg.
+	4.com.android.thdplayer
+	
+■2011.2.14
+	解决
+	flv 分离测试通过
+	FLV_CODECID_ADPCM: shockwave ADPCM_SWF
+	FLV_CODECID_PCM_LE:
+	FLV_CODECID_PCM
+	问题
+	2.rm splitter index seek
+	3.resource land_std.txt eg.
+	4.com.android.thdplayer
+	4.com.android.thdplayer
+■2011.2.23
+	解决
+	resource land_std.txt
+	2.3.1，2.3.2 api level 9
+	2.3.3  3.0   api level 10适配
+	更改包名称
+	问题
+	2.rm splitter index seek
+	3.so name change
+	4.com.android.thdplayer
+■2011.3.2
+	修正2.1,2.0.1,2.0图像显示不正确问题
+	修正2.1.2.0.1,2.0,1.6媒体信息显示乱码问题
+	修正界面显示时不能调节音量问题
+	添加播放错误提示信息
+	添加播放中断后继续上次播放
+	添加mov对于DIV3分离
+	添加对于QDM2解码支持
+
+	问题。
+	播放和媒体信息刷新问题。
+	媒体文件关联
+	多语言支持。
+■2011.3.2
+	多语言支持 ZH，EN
+	修正wavpack(wv)播放无声音
+	修复无法进入文件夹
+	修复自录文件(mp4)不能播放
+■2011.3.22
+	注意发版本时，底层库和java是否有log，
+	1.实现字幕显示（支持utf8,unicode,ansi,不支持utf7，utf16，文件类型支持ass，ssa，srt，smi，sub，不支持vobsub（idx+sub)）
+	2.目录浏览排序
+	3.变相解决由于asf频繁调用WcsToTcs异常问题
+	剩余问题。
+	1.lableview字体大小设置。（发版本前解决测试)
+	2.测试正规字幕媒体文件（发版本前测试）
+	3.字幕设置，支持字幕文件自动模块功能自动更新。下一版本完成（位置，字体大小，颜色，镂空)
+	4.jstringToChar CharTojstring CURRENT_ENCODE   "GBK"考虑
+	5.个别文件不能识别显示在播放列表，字符串问题
+	6.JVM attach detach
+	7.快切崩溃问题
+■2011.3.25
+	ver1.0.0.4
+	1.字幕文件自动加载并显示（支持utf8,unicode,ansi,不支持utf7，utf16，文件类型支持ass，ssa，srt，smi，sub，不支持vobsub（idx+sub)）
+	2.目录排序浏览
+	1. subtitle file is automatically loaded and displayed (support utf8, unicode, ansi, does not support utf7, utf16, file type support ass, ssa, srt, smi, sub, does not support vobsub (idx + sub))
+	2. directory sorted Browse
+	问题tscc pc良好，android崩溃
+■2011.3.27
+	ver1.0.0.4
+	1.字幕文件自动加载并显示（支持utf8,unicode,ansi,不支持utf7，utf16，文件类型支持ass，ssa，srt，smi，sub，不支持vobsub（idx+sub)）
+	2.目录排序浏览
+	3.修正部分divx/xvid解码花屏
+	4.字幕在1.6 \r\n问题
+	1. subtitle file is automatically loaded and displayed (support utf8, unicode, ansi, does not support utf7, utf16, file type support ass, ssa, srt, smi, sub, does not support vobsub (idx + sub))
+	2. directory sorted Browse
+	问题tscc pc良好，android崩溃
+■2011.3.27
+	ver1.0.0.5
+	TXT '|' 字符转义 '\n'
+	smi 解析错误。
+	字幕链表释放bug
+	去除原有pos，time 数组
+■2011.4.18
+	cmd-strip = $(TOOLCHAIN_PREFIX)strip --strip-debug --strip-unneeded $1 
+	减少库文件体积，
+	nm xxxx.so  -D
+■2011.6.28
+	1.线程退出问题。
+	2.免费版加入播放暂停广告
+	3.免费版加入bmp解码
+	4.免费版不再加入新解码格式，只是处理已有bug
+	5.收费版前期的免费使用测试。
+	6.收费版version更改。
+	7.收费版加入其它解码格式。
+■2011.7.25
+	1.加入bmp解码
+	2.减少包的大小
+	3.解决线程函数内存泄露问题，句柄未释放，或者句柄无效。
+	4.不再使用资源配置文件
+	5.更新广告插件
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++												+
++	不再维护SemanPlayer(1.0.0.6)code 7从此更名为新的包名HDPlayer				+
++												+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+■2011.10.14
+	SeamanPlayer(1.0.0.9)code 10 ffmpeg_7_4
+	1. improved playback performance real media file format, as well as some other decoder
+	2. support app2sd
+	3. fixes the problem can not play some 3gp
+■2011.10.21
+	ver 1.0.1.0
+	1.auto pause when call in
+	2.add mpc sv8 decode
+	3.add system setting
+■2011.11.14
+	ver 1.0.1.2
+	1.添加本地关联 音频，视频，图片。暂时没有加入网络关联。
+	2.Context_Init 删除ThreadSleep(500)
+	3.视频渲染使用嵌套锁
+	4.flv分离使用文件描述时长
+	5.核心永不卸载
+■2011.11.25
+	ver 1.0.1.3
+	1.auto generate thumbnail of the media file and duration of the media
+	2.add some setting about the thumbnail
+
+	1.自动生成缩略图的媒体文件和媒体的持续时间
+	2.添加一些缩略图的设置
+■20112.11.24
+	ver 1.0.3.0
+	1.4.0 4.1 4.2 (eg.nexus7)
+	
+	问题：
+	如何加入渲染优化
+	
